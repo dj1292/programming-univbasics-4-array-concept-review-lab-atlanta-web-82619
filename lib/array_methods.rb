@@ -49,5 +49,4 @@ def find_min_value(array)
       if value_found == true 
         return array[i]
       end
-    end
 end
