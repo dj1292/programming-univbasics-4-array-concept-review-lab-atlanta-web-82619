@@ -28,6 +28,8 @@ length.times do
  i += 1
  end
  end
+ if value_found == true 
+   return array[i]
  end
 
 def find_min_value(array)
