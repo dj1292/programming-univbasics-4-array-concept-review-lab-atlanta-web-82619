@@ -19,7 +19,7 @@ def find_max_value(array)
  i = 0
  value_found = false
 length = array.length
-max_value = 5
+max_value = array.max
 length.times do 
   if array[i] == max_value
    value_found = true
