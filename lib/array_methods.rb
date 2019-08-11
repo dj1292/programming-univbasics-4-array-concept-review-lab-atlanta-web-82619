@@ -22,7 +22,6 @@ def find_max_value(array)
  length.times do 
    if array[i] == 5
      value1 = true
-   end
  i += 1
  end
 
