@@ -24,7 +24,7 @@ length.times do
   if array[i] == max_value
    value_found = true
  end
- if value_found ==false
+ if value_found == false
  i += 1
  end
  end
