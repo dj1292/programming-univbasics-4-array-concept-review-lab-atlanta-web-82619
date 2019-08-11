@@ -38,7 +38,7 @@ def find_min_value(array)
   value_found = false 
   length = array.length
   min_value = array.min
-    length.timess do 
+    length.times do 
       if array[i] == min_value
         value_found = true
       end
