@@ -17,8 +17,16 @@ end
 
 def find_max_value(array)
  i = 0
-
+ value_found = false
+length = array.length
+max_value = 5
+length.times do 
+  if array[i] == max_value
+   value_found = true
+ end
+ if value_found ==false
  i += 1
+ end
  end
 
 def find_min_value(array)
