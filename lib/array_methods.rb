@@ -31,6 +31,7 @@ length.times do
  if value_found == true 
    return array[i]
  end
+ end
 
 def find_min_value(array)
   # Add your solution here
