@@ -34,5 +34,20 @@ length.times do
  end
 
 def find_min_value(array)
-  # Add your solution here
+  i = 0 
+  value_found = false 
+  length = array.length
+  min_value = array.min
+    length.timess do 
+      if array[i] == min_value
+        value_found = true
+      end
+      if value_found == false 
+        i += 1 
+      end
+    end
+      if value_found == true 
+        return array[i]
+      end
+    end
 end
